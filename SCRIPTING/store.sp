@@ -46,6 +46,7 @@
 
 bool GAME_CSS = false;
 bool GAME_CSGO = false;
+bool GAME_NMRIH = false;
 bool GAME_DOD = false;
 bool GAME_TF2 = false;
 bool GAME_L4D = false;
@@ -181,6 +182,8 @@ public void OnPluginStart()
 		GAME_CSS = true;
 	else if(strcmp(g_szGameDir, "csgo")==0)
 		GAME_CSGO = true;
+	else if(strcmp(g_szGameDir, "nmrih")==0)
+		GAME_NMRIH = true;
 	else if(strcmp(g_szGameDir, "dod")==0)
 		GAME_DOD = true;
 	else if(strcmp(g_szGameDir, "tf")==0)
