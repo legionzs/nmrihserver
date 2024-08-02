@@ -16,8 +16,8 @@
 
 #include <sourcemod>
 #include <sdktools>
-//#include <multicolors>
-#include <colorvariables>
+#include <multicolors>
+//#include <colorvariables>
 
 #undef REQUIRE_EXTENSIONS
 #undef REQUIRE_PLUGIN
@@ -139,10 +139,10 @@ Handle ReloadTimer = INVALID_HANDLE;
 
 //uncomment the next line if you using valve weapon skin and knives (warning, this may cause your server get banned. Please use at your own risk)
 //#define WEAPONS_KNIVES
-#if defined WEAPONS_KNIVES
-#include "store/modules/knife.sp"
-#include "store/modules/weaponskins.sp"
-#endif
+//#if defined WEAPONS_KNIVES
+//#include "store/modules/knife.sp"
+//#include "store/modules/weaponskins.sp"
+//#endif
 
 //////////////////////////////////
 //		PLUGIN DEFINITION		//
@@ -253,7 +253,7 @@ public void OnPluginStart()
 	//Jihad_OnPluginStart();
 	//Godmode_OnPluginStart();
 	//Sounds_OnPluginStart();
-	Attributes_OnPluginStart();
+	//Attributes_OnPluginStart();
 	//Respawn_OnPluginStart();
 	//Pets_OnPluginStart();
 	//Sprays_OnPluginStart();
@@ -331,7 +331,7 @@ public void OnLibraryAdded(const char[] name)
 
 public void OnMapStart()
 {
-	for(new i=0;i<g_iTypeHandlers;++i)
+	for(int i=0;i<g_iTypeHandlers;++i)
 	{
 		if(g_eTypeHandlers[i].fnMapStart != INVALID_FUNCTION)
 		{
