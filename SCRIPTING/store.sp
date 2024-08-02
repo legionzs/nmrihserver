@@ -198,7 +198,7 @@ public void OnPluginStart()
 	}
 
 	// Supress warnings about unused variables.....
-	if(GAME_DOD || GAME_L4D || GAME_L4D2 || g_bL4D || g_bL4D2 || g_bND || GAME_TF2 || GAME_CSGO || GAME_CSS) {}
+	if(GAME_DOD || GAME_L4D || GAME_NMRIH || GAME_L4D2 || g_bL4D || g_bL4D2 || g_bND || GAME_TF2 || GAME_CSGO || GAME_CSS) {}
 
 	// Setting default values
 	for(int i=1;i<=MaxClients;++i)
@@ -331,7 +331,7 @@ public void OnLibraryAdded(const char[] name)
 
 public void OnMapStart()
 {
-	for(int i=0;i<g_iTypeHandlers;++i)
+	for(new i=0;i<g_iTypeHandlers;++i)
 	{
 		if(g_eTypeHandlers[i].fnMapStart != INVALID_FUNCTION)
 		{
