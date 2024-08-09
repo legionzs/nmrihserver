@@ -679,10 +679,6 @@ Action Timer_Timer(Handle timer)
 void Event_NPCKilled(Event event, const char[] name, bool dontBroadcast)
 {
 	int rewardPoints = 1;
-	if (rewardPoints == 0) {
-		return;
-	}
-
 	int killeridx = event.GetInt("killeridx");
 
 	if (!IsEntityPlayerInGame(killeridx)) {
@@ -696,10 +692,6 @@ void Event_NPCKilled(Event event, const char[] name, bool dontBroadcast)
 public Action:Event_PlayerExtracted(Handle:event, const String:name[], bool:dontBroadcast)
 {	
 	int rewardPoints = 50;
-	if (rewardPoints == 0) {
-		return;
-	}
-
 	int playeridx = GetEventInt(event, "player_id");
 
 
