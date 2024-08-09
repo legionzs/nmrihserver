@@ -9,15 +9,15 @@
 		"flags"				""					// Flag to recieve this earnings, no flag = everyone
 		"player"			"1"					// Minimal player on server before recieve earnings
 		"bots"				"0"					// Do Bot kills count?
-		"msg"				"2"					// Notification for earning credits. 0 = disabled / 1 = single notification on every earning / 2 = Sum credits on death or end of round / 3 = shown detailed stats on death or end of round
+		"msg"				"0"					// Notification for earning credits. 0 = disabled / 1 = single notification on every earning / 2 = Sum credits on death or end of round / 3 = shown detailed stats on death or end of round
 		"nick"				"EXAMPLE.COM"		// String in nickname for getting multiplier on credits
 		"nick_multi"		"2"				// Multiplier for nickname string - multiply with all multiplier and earnings, except dailys
 		"groupid"			"12345678"			// Steam groupid for getting multiplier on credits
 		"groupid_multi"		"1.2"				// Multiplier for groupid - multiply with all multiplier and earnings, except dailys
 		"clantag"			"example"		// String in clantag for getting multiplier on credits
 		"clantag_multi"		"1.2"				// Multiplier matching clan tag - multiply with all multiplier and earnings, except dailys
-		"timer"				"60"				// Timer time to get earnings for playtime (active/inactive)
-		"active"			"1"					// Credits you earn for playing in a team ("timer")
+		"timer"				"600"				// Timer time to get earnings for playtime (active/inactive)
+		"active"			"10"					// Credits you earn for playing in a team ("timer")
 		"inactive"			"0"					// Credits you earn for beeing spectator ("timer")
 		"kill"				"1"				// Credits you earn for make a kill
 		"tk"				"-100"				// Credits you earn/loose for make a teamkill
@@ -57,15 +57,15 @@
 		"flags"				"z"					// Flag to recieve this earnings, no flag = everyone, def = a
 		"player"			"1"					// Minimal player on server before recieve earnings
 		"bots"				"0"					// Do Bot kills count?
-		"msg"				"2"					// Notification for earning credits. 0 = disabled / 1 = single notification on every earning / 2 = Sum credits on death or end of round / 3 = shown detailed stats on death or end of round
+		"msg"				"0"					// Notification for earning credits. 0 = disabled / 1 = single notification on every earning / 2 = Sum credits on death or end of round / 3 = shown detailed stats on death or end of round
 		"nick"				"EXAMPLE.COM"		// String in nickname for getting multiplier on credits
 		"nick_multi"		"2"				// Multiplier for nickname string - multiply with all multiplier and earnings, except dailys
 		"groupid"			"12345678"			// Steam groupid for getting multiplier on credits
 		"groupid_multi"		"1.2"				// Multiplier for groupid - multiply with all multiplier and earnings, except dailys
 		"clantag"			"example"		// String in clantag for getting multiplier on credits
 		"clantag_multi"		"1.2"				// Multiplier matching clan tag - multiply with all multiplier and earnings, except dailys
-		"timer"				"60"				// Timer time to get earnings for playtime (active/inactive)
-		"active"			"1"					// Credits you earn for playing in a team ("timer")
+		"timer"				"600"				// Timer time to get earnings for playtime (active/inactive)
+		"active"			"20"					// Credits you earn for playing in a team ("timer")
 		"inactive"			"0"					// Credits you earn for beeing spectator ("timer")
 		"kill"				"1"				// Credits you earn for make a kill
 		"tk"				"-100"				// Credits you earn/loose for make a teamkill
