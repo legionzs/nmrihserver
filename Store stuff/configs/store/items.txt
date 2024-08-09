@@ -10,30 +10,68 @@
 		}
 	}
 	
-	"Player Skins"
+	"Models"
 	{
-		"Tofu"
+		"Vector"
 		{
-			"model" "models/player/custom_player/thas/my_model/tofu_v3/tofu.mdl"
-			"arms" "models/player/custom_player/thas/my_model/tofu_v3/tofu_arms.mdl"
-			"team" "4" // (For CSGO and CSS: Ts = 2 , CT = 3, both = 4) (For L4D2: Survivor = 2; Infected = 3; Both = 4)
-			"type" "playerskin"
-			"preview" "1" // Enable the preview for this item, only item that support preview can use this feature
-			"unique_id" "uid_model_tofu" // You must have "unique_id" 
-			"price" "0"
-		}
-		
-		"Vanilla Hunter"
-		{
-			"model" "models/player/p_hunter.mdl"
-			"arms" "models/arms/c_hunter_arms.mdl"
-			"team" "4"
+			"model" "models/n7legion/reorc_vector.mdl"
+			//"arms" "models/arms/c_hunter_arms.mdl"
+			"team"	"4"
 			"type" "playerskin"
 			"preview" "1"
-			"price" "0"
-			"unique_id"	"uid_model_vanillahunter"
+			"price" "40000"
+			"unique_id"	"uid_model_vector"
 		}
-		
+		"Hunk"
+		{
+			"model" "models/n7legion/re2_hunk.mdl"
+			//"arms" "models/arms/c_hunter_arms.mdl"
+			"team"	"4"
+			"type" "playerskin"
+			"preview" "1"
+			"price" "40000"
+			"unique_id"	"uid_model_hunk"
+		}
+		"Doomslayer"
+		{
+			"model" "models/n7legion/doomslayer.mdl"
+			//"arms" "models/arms/c_hunter_arms.mdl"
+			"team"	"4"
+			"type" "playerskin"
+			"preview" "1"
+			"price" "40000"
+			"unique_id"	"uid_model_doomslayer"
+		}
+		"Bloodhound"
+		{
+			"model" "models/n7legion/bloodhound_roadwarrior.mdl"
+			//"arms" "models/arms/c_hunter_arms.mdl"
+			"team"	"4"
+			"type" "playerskin"
+			"preview" "1"
+			"price" "40000"
+			"unique_id"	"uid_model_bloodhound"
+		}
+		"Gavi Regan"
+		{
+			"model" "models/n7legion/gaviregan.mdl"
+			//"arms" "models/arms/c_hunter_arms.mdl"
+			"team"	"4"
+			"type" "playerskin"
+			"preview" "1"
+			"price" "40000"
+			"unique_id"	"uid_model_gaviregan"
+		}
+		"Nargacuga"
+		{
+			"model" "models/n7legion/nargacuga_new.mdl"
+			//"arms" "models/arms/c_hunter_arms.mdl"
+			"team"	"4"
+			"type" "playerskin"
+			"preview" "1"
+			"price" "60000"
+			"unique_id"	"uid_model_nargacuga"
+		}
 		
 		"Exclusive Skins"
 		{
@@ -295,43 +333,42 @@
 			}
 		}
 		
-		"Pets"
-		{
+		//"Pets"
+		//{
 			
-			"Tiny Haipa"
-			{
-				"model" "models/maoling/pet/misc/haipa/haipa_v2.mdl"
-				"position" "25.0 -20.0 0.0"
-				"angles" "0.0 340.0 0.0"
-				"idle" "ACT_DOTA_IDLE"
-				"idle2" "ACT_DOTA_IDLE_RARE"
-				"run" "ACT_DOTA_RUN"
-				"preview"					"1"
-				"unique_id"					"uid_pet_tiny_haipa"
-				"trade" "4"
-				"type" "pet"
-				"Plans"
-				{
-					"1 day"
-					{
-						"price" "750"
-						"time" "86400"
-					}
-					"7 days"
-					{
-
-						"price" "3500"
-						"time" "604800"
-					}
-					"30 days"
-					{
-						"price" "12000"
-						"time"	"2592000"
-					}
-				}			
-			}
-
-		}
+			//"Tiny Haipa"
+			//{
+			//	"model" "models/maoling/pet/misc/haipa/haipa_v2.mdl"
+			//	"position" "25.0 -20.0 0.0"
+			//	"angles" "0.0 340.0 0.0"
+			//	"idle" "ACT_DOTA_IDLE"
+			//	"idle2" "ACT_DOTA_IDLE_RARE"
+			//	"run" "ACT_DOTA_RUN"
+			//	"preview"					"1"
+			//	"unique_id"					"uid_pet_tiny_haipa"
+			//	"trade" "4"
+			//	"type" "pet"
+			//	"Plans"
+			//	{
+			//		"1 day"
+			//		{
+			//			"price" "750"
+			//			"time" "86400"
+			//		}
+			//		"7 days"
+			//		{
+			//
+			//			"price" "3500"
+			//			"time" "604800"
+			//		}
+			//		"30 days"
+			//		{
+			//			"price" "12000"
+			//			"time"	"2592000"
+			//		}
+			//	}			
+			//}
+		//}
 	
 		"Particle Effect"
 		{
