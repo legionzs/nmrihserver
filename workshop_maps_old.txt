@@ -1,0 +1,6 @@
+"WorkshopMaps"
+{
+	"nmo_anxiety_classic_v1"		"2001007120"
+	"nmo_mountains"		"2883078703"
+	"nmo_shreddingfield_v3"		"2409054428"
+}
