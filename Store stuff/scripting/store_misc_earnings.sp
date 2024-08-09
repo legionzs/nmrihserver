@@ -693,14 +693,15 @@ void Event_NPCKilled(Event event, const char[] name, bool dontBroadcast)
 	Store_SetClientCredits(killeridx, curCredits + rewardPoints);
 }
 
-void Event_PlayerExtracted(Event event, const char[] name, bool dontBroadcast)
+public Action:Event_PlayerExtracted(Handle:event, const String:name[], bool:dontBroadcast)
 {	
 	int rewardPoints = 50;
 	if (rewardPoints == 0) {
 		return;
 	}
 
-	int playeridx = event.GetInt("playeridx");
+	int playeridx = GetEventInt(event, "player_id");
+
 
 	if (!IsEntityPlayerInGame(playeridx)) {
 		return;
