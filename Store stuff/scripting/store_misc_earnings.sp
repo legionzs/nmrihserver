@@ -108,9 +108,9 @@ bool GAME_NMRIH = false;
 public Plugin myinfo = 
 {
 	name = "Store - Earnings module",
-	author = "shanapu, AiDN™, nuclear silo, azalty", // If you should change the code, even for your private use, please PLEASE add your name to the author here
+	author = "shanapu, AiDN™, nuclear silo, azalty, legionzs", // If you should change the code, even for your private use, please PLEASE add your name to the author here
 	description = "This modules can only be use in CSS, CS:GO. Dont install if you use for tf2, dods, l4d",
-	version = "2.5", // If you should change the code, even for your private use, please PLEASE make a mark here at the version number
+	version = "2.6", // If you should change the code, even for your private use, please PLEASE make a mark here at the version number
 	url = ""
 };
 
