@@ -1,10 +1,9 @@
-#if defined STANDALONE_BUILD
 #include <sourcemod>
 #include <sdktools>
 
 #include <store>
 #include <zephstocks>
-#endif
+
 
 enum struct Glow
 {
@@ -20,11 +19,16 @@ new g_iGlow = 0;
 new g_unClientGlow[MAXPLAYERS+1] = {INVALID_ENT_REFERENCE, ...};
 new g_unSelectedGlow[MAXPLAYERS+1]={-1,...};
 
-#if defined STANDALONE_BUILD
+public Plugin myinfo = 
+{
+	name = "Store - Glow [NMRIH]",
+	author = "Dysphie, legionzs", 
+	description = "Add Glow module to the Zephyrus shop",
+	version = "1.0",
+	url = ""
+}
+
 public OnPluginStart()
-#else
-public Glow_OnPluginStart()
-#endif
 {
 	Store_RegisterHandler("glow", "color", Glow_OnMapStart, Glow_Reset, Glow_Config, Glow_Equip, Glow_Remove, true);
 
@@ -162,7 +166,7 @@ public CreateGlow(client)
 		AcceptEntityInput(m_unEnt, "SetParentAttachmentMaintainOffset", m_unEnt, m_unEnt, 0);
 	  
 		g_unClientGlow[client] = EntIndexToEntRef(m_unEnt);
-		g_unLastAnimation[client] = -1;
+		// g_unLastAnimation[client] = -1;
 	}
 }
 
