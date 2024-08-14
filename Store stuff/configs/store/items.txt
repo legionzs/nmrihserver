@@ -9,6 +9,64 @@
 			"unique_id"						"uid_toplists_toplists"
 		}
 	}
+
+	"Glows"
+	{
+		"White"
+		{
+			"price"			"12000"
+			"color"			"255 255 255"
+			"brightness"	"5"
+			"style"			"0"
+			"type"			"glow"
+			"unique_id"		"uid_glow_white"
+		}
+		"Green"
+		{
+			"price"			"12000"
+			"color"			"0 255 0"
+			"brightness"	"5"
+			"style"			"0"
+			"type"			"glow"
+			"unique_id"		"uid_glow_green"
+		}
+		"Blue"
+		{
+			"price"			"12000"
+			"color"			"0 0 255"
+			"brightness"	"5"
+			"style"			"0"
+			"type"			"glow"
+			"unique_id"		"uid_glow_blue"
+		}
+		"Red"
+		{
+			"price"			"12000"
+			"color"			"255 0 0"
+			"brightness"	"5"
+			"style"			"0"
+			"type"			"glow"
+			"unique_id"		"uid_glow_red"
+		}
+		"Orange"
+		{
+			"price"			"12000"
+			"color"			"192 64 0"
+			"brightness"	"5"
+			"style"			"0"
+			"type"			"glow"
+			"unique_id"		"uid_glow_orange"
+		}
+		"Pink"
+		{
+			"price"			"12000"
+			"color"			"255 192 203"
+			"brightness"	"5"
+			"style"			"0"
+			"type"			"glow"
+			"unique_id"		"uid_glow_pink"
+		}
+	}
 	
 	"Models"
 	{
