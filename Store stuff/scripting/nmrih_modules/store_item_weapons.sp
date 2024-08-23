@@ -1,20 +1,23 @@
-#if defined STANDALONE_BUILD
 #include <sourcemod>
 #include <sdktools>
 
 #include <store>
 #include <zephstocks>
-#endif
 
 new String:g_szWeapons[STORE_MAX_ITEMS][64];
 
 new g_iWeapons = 0;
 
-#if defined STANDALONE_BUILD
+public Plugin myinfo = 
+{
+	name = "Store - Weapons [NMRIH]",
+	author = "Dysphie, legionzs", 
+	description = "Add Weapons module to the Zephyrus shop",
+	version = "1.0",
+	url = ""
+}
+
 public OnPluginStart()
-#else
-public Weapons_OnPluginStart()
-#endif
 {
 	Store_RegisterHandler("weapon", "", Weapons_OnMapStart, Weapons_Reset, Weapons_Config, Weapons_Equip, Weapons_Remove, false);
 }
@@ -45,7 +48,7 @@ public Weapons_Equip(client, id)
 
 	// In NMRiH, GivePlayerItem does not automatically equip the weapon
 	// And EquipPlayerWeapon does not account for inventory weight
-	if (weapon != -1 && GAME_NMRIH) 
+	if (weapon != -1) 
 	{
 		float eyePos[3];
 		GetClientEyePosition(client, eyePos);
