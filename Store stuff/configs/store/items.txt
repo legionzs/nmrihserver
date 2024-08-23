@@ -10,6 +10,45 @@
 		}
 	}
 
+	"Items"
+	{
+		"Welder"
+		{
+			"price"			"20"
+			"weapon"		"tool_welder"
+			"preview"		"0"
+			"type"			"weapon"
+		}
+		"Fire Extinguisher"
+		{
+			"price"			"20"
+			"weapon"		"tool_extinguisher"
+			"preview"		"0"
+			"type"			"weapon"
+		}
+		"Flare gun"
+		{
+			"price"			"20"
+			"weapon"		"tool_flare_gun"
+			"preview"		"0"
+			"type"			"weapon"
+		}
+		"Bandages"
+		{
+			"price"			"10"
+			"weapon"		"item_bandages"
+			"preview"		"0"
+			"type"			"weapon"
+		}
+		"Phalanx Pills"
+		{
+			"price"			"10"
+			"weapon"		"item_pills"
+			"preview"		"0"
+			"type"			"weapon"
+		}
+	}
+
 	"Glows"
 	{
 		"White"
@@ -72,63 +111,63 @@
 	{
 		"Vector"
 		{
-			"model" "models/n7legion/reorc_vector.mdl"
-			//"arms" "models/arms/c_hunter_arms.mdl"
-			"team"	"4"
-			"type" "playerskin"
-			"preview" "1"
-			"price" "40000"
-			"unique_id"	"uid_model_vector"
+			"model" 		"models/n7legion/reorc_vector.mdl"
+			//"arms" 		"models/arms/c_hunter_arms.mdl"
+			"team"			"4"
+			"type" 			"playerskin"
+			"preview" 		"1"
+			"price" 		"40000"
+			"unique_id"		"uid_model_vector"
 		}
 		"Hunk"
 		{
-			"model" "models/n7legion/re2_hunk.mdl"
-			//"arms" "models/arms/c_hunter_arms.mdl"
-			"team"	"4"
-			"type" "playerskin"
-			"preview" "1"
-			"price" "40000"
-			"unique_id"	"uid_model_hunk"
+			"model" 		"models/n7legion/re2_hunk.mdl"
+			//"arms" 		"models/arms/c_hunter_arms.mdl"
+			"team"			"4"
+			"type" 			"playerskin"
+			"preview" 		"1"
+			"price" 		"40000"
+			"unique_id"		"uid_model_hunk"
 		}
 		"Doomslayer"
 		{
-			"model" "models/n7legion/doomslayer.mdl"
-			//"arms" "models/arms/c_hunter_arms.mdl"
-			"team"	"4"
-			"type" "playerskin"
-			"preview" "1"
-			"price" "40000"
-			"unique_id"	"uid_model_doomslayer"
+			"model" 		"models/n7legion/doomslayer.mdl"
+			//"arms" 		"models/arms/c_hunter_arms.mdl"
+			"team"			"4"
+			"type" 			"playerskin"
+			"preview" 		"1"
+			"price" 		"40000"
+			"unique_id"		"uid_model_doomslayer"
 		}
 		"Bloodhound"
 		{
-			"model" "models/n7legion/bloodhound_roadwarrior.mdl"
-			//"arms" "models/arms/c_hunter_arms.mdl"
-			"team"	"4"
-			"type" "playerskin"
-			"preview" "1"
-			"price" "40000"
-			"unique_id"	"uid_model_bloodhound"
+			"model" 		"models/n7legion/bloodhound_roadwarrior.mdl"
+			//"arms" 		"models/arms/c_hunter_arms.mdl"
+			"team"			"4"
+			"type" 			"playerskin"
+			"preview" 		"1"
+			"price" 		"40000"
+			"unique_id"		"uid_model_bloodhound"
 		}
 		"Gavi Regan"
 		{
-			"model" "models/n7legion/gaviregan.mdl"
-			//"arms" "models/arms/c_hunter_arms.mdl"
-			"team"	"4"
-			"type" "playerskin"
-			"preview" "1"
-			"price" "40000"
-			"unique_id"	"uid_model_gaviregan"
+			"model" 		"models/n7legion/gaviregan.mdl"
+			//"arms" 		"models/arms/c_hunter_arms.mdl"
+			"team"			"4"
+			"type" 			"playerskin"
+			"preview" 		"1"
+			"price" 		"40000"
+			"unique_id"		"uid_model_gaviregan"
 		}
 		"Nargacuga"
 		{
-			"model" "models/n7legion/nargacuga_new.mdl"
-			//"arms" "models/arms/c_hunter_arms.mdl"
-			"team"	"4"
-			"type" "playerskin"
-			"preview" "1"
-			"price" "60000"
-			"unique_id"	"uid_model_nargacuga"
+			"model" 		"models/n7legion/nargacuga_new.mdl"
+			//"arms" 		"models/arms/c_hunter_arms.mdl"
+			"team"			"4"
+			"type" 			"playerskin"
+			"preview" 		"1"
+			"price" 		"60000"
+			"unique_id"		"uid_model_nargacuga"
 		}
 		
 		"Exclusive Skins"
@@ -151,7 +190,7 @@
 			}
 		}
 	}
-		
+	
 	"Zombie Skins"
 	{
 		"Normal Zombie"
