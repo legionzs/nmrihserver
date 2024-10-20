@@ -344,4 +344,5 @@ nmo_xmas_0-1-0
 nmo_zephyr
 nmo_zm_backwoods_v2
 nmo_zm_shipescape
+nmo_shoreline
 parkour_course
